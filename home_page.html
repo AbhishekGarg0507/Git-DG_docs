@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Contact Us</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://kit.fontawesome.com/a891b854ab.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/Style_project.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive_Style.css">
+    <style>
+       
+    </style>
+   
+</head>
+    <body>
+        
+        <div class="all_header">
+            <div class="hader_contacts">
+                <div class="email_h"><p class="h_size">info.abc@gmail.com</p></div>
+                <div class="mobil_h"><p class="h_size"></p></div>
+            </div>
+            <div class="hader_secondPart">
+                <div class="logo_div">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="mobile_option"><button onClick="show_cat_op('Options_cate_page1')"><i class="fa-solid fa-bars"></i></button></div>
+                   <div class="serch_bar">
+                    <div class="serch_elemats">
+                        <input type="text" id="Search_id" class="in" placeholder="     Search..." required>
+
+                        <button class="close_button" onClick="cal_fun()"><i class="fa-solid fa-xmark close_btn_hide"></i></button>
+
+                        <button class="ser_button" onclick="window.location.href = 'search.html'"><img src="img/serch_button.png" alt=""></button>
+                    </div>
+                </div>
+            </div>
+            <div id="Options_cate_page1">
+                <div class="Options_cate_page">
+                    <button onClick="show_cat_op('Options_cate_page1')" class="close_button"><i class="fa-solid fa-xmark" id=""></i></button>
+                        <div class="Categores_op">
+                            <div> <a href="index.html"><h1> HOME </h1></a></div>
+                            <div> <a href="about_us.html"> <h1> ABOUT</h1></a></div>
+                            <div> <a href="contact_us.html"><h1> CONTACT </h1></a></div>
+
+
+                        </div>
+
+                </div>
+        
+            </div>
+            <div class="option_catagorie">
+                        <div><a href="index.html" class="home_border">HOME</a></div>
+                        <div><a href="about_us.html">ABOUT</a></div>
+                        <div><a href="#" >CONTACT</a></div>
+            </div>
+            
+           
+        
+        
+        </div>
+       
+     <div class="contact_usimg">
+            <img src="img/computer_background.jpg" alt="" class="car_pc_img">
+            <img src="img/computer_background.jpg" alt="" class="car_mob_img">
+            <div class="contactUS_background">
+                <div class="contant_car_Text padin">
+                    <h2 class="h2_size"><span class="dark_bule">the Aplication</span> Name </h2>
+                    <p class="p_size">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="form_wapper">
+                    <div class="left_side_form">
+                        <div class="Contact_Information">
+                            <h3 class="h4_b_size">Application Information</h3>
+                            <p class="p_size">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        
+                        </div>
+                        <div class="contact_us_address">
+                            <div class="info_wappers_contact" >
+                                <div class="contact_links_us"><img src="img/contact_phonee.png" alt=""><p class="p_size">+04 2568 9123</p></div>
+                                <div class="contact_links_us"><img src="img/contact_maill.png" alt=""><p class="p_size">example@gmail.com</p></div>
+                          
+                            
+                            </div>
+                        
+                        
+                        </div>
+                        <div class="contant_media_wapper">
+                            <div class="contant_media">
+                                <a href="#"><img src="img/fb.png" alt=""></a>
+                                <a href="#"><img src="img/instag.png" alt=""></a>
+                                <a href="#"><img src="img/linkden.png" alt=""></a>
+                            
+                            </div>
+                            <div class="contant_media_img"><img src="img/img_form_back.png" alt=""></div>
+                        
+                        </div>
+                        
+                    
+                    
+                    </div>
+                    <div class="main_contact_form">
+                        <form name="jump">
+                            <div class="form_inputs">
+                                <div><label class="this_label">First Name</label><input type="text" class="in" placeholder="   FULL NAME" required></div>
+                                <div><label>Last Name</label><input type="text" class="in" placeholder="   Last Name" required></div>
+                                <div><label>Email ID</label><input type="text" class="in" placeholder="   Email ID" required></div>
+                                 <div><label>Aadhar card Number</label><input type="text" class="in" placeholder="   Aadhar card Number" required></div>
+                                <div><label>Pan Card Number</label><input type="text" class="in" placeholder="   Pan Card Number" required></div>
+                                <div><label>Phone Number</label><input type="text" class="in" placeholder="   Phone Number" required></div>
+                                <div><label>Location</label><input type="text" class="in" placeholder="   Location" required></div>
+                                <div><label>Zipcode</label><input type="text" class="in" placeholder="   Zipcode" required></div>
+                                <div class="input_textArea">
+                                    <label>Home Address</label>
+                                    <textarea placeholder="    Enter your Home Address" rows="8" required></textarea>
+
+
+                                </div>
+                                <div>
+                                    <label for="select_form">Select The Form:</label>
+                                    <select class="select_form" name="menu">
+                                        <option selected>Select the form</option>
+                                        <option value="EVF.html" >Employee Varification Form</option>
+                                        <option value="EAF.html">Employee Application Form</option>
+                                    </select>
+                                </div>
+                                
+                                
+
+
+                            </div>
+                            <div class="register">
+                                <button>Fetch the data <i class="fa-solid fa-database"></i></button>
+                                <button onclick="location=document.jump.menu.options[document.jump.menu.selectedIndex].value;">Generate the file as PDF <i class="fa-solid fa-file" onclick="pageRedirect()"></i></button>
+                                
+                             </div>
+                        </form>
+                    
+                    
+                    </div>
+                
+                
+                </div>
+            
+            </div>
+            
+        
+        </div>
+        <div class="Footer">
+            <div class="links">
+                <div class="footer_about">
+                    <div class="logo_img_f"><img src="img/logo.png" alt=""></div>
+                    <div class="about_US_Text">
+                        <h4 class="h4_size">About Us</h4>
+                        <p class="p_size">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                         <div class="contact_us_Icons"> 
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    
+                    </div>
+                
+                </div>
+                
+                <div class="Quick_links">
+                    <h2 class="h3_size"> Quicklinks </h2>
+                     
+                    <ul class="p_size_b" >
+                        <li><a href="#">Link1</a></li>
+                        <li><a href="#">Link2 </a></li>
+                        <li><a href="#">Link3 </a></li>
+                        
+                                
+                            
+                               
+                    </ul>
+                </div>
+                <div class="Quick_links">
+                    <h2 class="h3_size"> Quicklinks </h2>
+                     
+                    <ul class="p_size_b" >
+                        <li><a href="#">Link1</a></li>
+                        <li><a href="#">Link2 </a></li>
+                        <li><a href="#">Link3 </a></li>
+                        
+                                
+                            
+                               
+                    </ul>
+                </div>
+                <div class="Quick_links">
+                    <h2 class="h3_size"> Quicklinks </h2>
+                     
+                    <ul class="p_size_b" >
+                        <li><a href="#">Body Type 1</a></li>
+                        <li><a href="#">Body Type 2 </a></li>
+                        <li><a href="#">Body Type 3 </a></li>
+                        
+                     
+                                
+                            
+                               
+                    </ul>
+                </div>
+                <div class="Quick_links">
+                   
+                </div>
+                
+                
+            
+            
+            </div>
+            <div class="copy_right"> <p> The file Maker Application || 2022 ||  </p> </div>
+        
+        
+        
+        
+        
+        </div>
+        <script src="css/Script.js">
+
+        //   <button id="myButton" class="float-left submit-button" >Home</button>
+          //      function pageRedirect(){
+            //    $('#select_form').on('change', function () {
+              //  var url = $(this).val(); // get selected value
+              //  if (url) { // require a URL
+              //  window.location(url); // redirect
+              //  }
+              //  return false;
+              //  });
+           // }
+            </script>
+
+
+            <!-- <script>
+                $(function(){
+                  // bind change event to select
+                  $('#select_form').on('change', function () {
+                      var url = $(this).val(); // get selected value
+                      if (url) { // require a URL
+                          window.location = url; // redirect
+                      }
+                      return false;
+                  });
+                });
+            </script> -->
+    </body>
+</html>

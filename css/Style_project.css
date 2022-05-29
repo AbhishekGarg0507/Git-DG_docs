@@ -1,0 +1,2608 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ @font-face{
+             font-family: Poppins;
+             src: url('../fonts/Poppins-Light.ttf');
+}
+@font-face{
+             font-family: Inter_M;
+             src: url('../fonts/Inter-Medium.otf');
+}
+ @font-face{
+             font-family: Inter_l;
+             src: url('../fonts/Inter-Light-BETA.otf');
+}
+@font-face{
+             font-family: Inter_Bolder;
+             src: url('../fonts/Inter-ExtraBold.otf');
+}
+@font-face{
+             font-family: Inter_Bold;
+             src: url('../fonts/Inter-Bold.otf');
+        
+}
+@font-face{
+             font-family: Inter_Italic;
+             src: url('../fonts/Inter-LightItalic-BETA.otf');
+}
+.h_size{
+    font-size: .9em; 
+}
+.p_size{
+    font-size: .9em;
+}
+.p_size_b{
+    font-size: 1em;
+    
+}
+
+.h4_size{
+    font-size: 1em;
+}
+.h4_b_size{
+    font-size:1.3em
+}
+.p_s_size{
+    font-size:.7em;
+}
+.h1_size{
+    font-size: 3em;
+}
+.h3_size{
+    font-size:  1.5em;
+}
+.h2_size{
+    font-size: 2.3em;
+}
+.all_header{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    
+}
+.hader_contacts{
+    width: 100%;
+    display: flex;
+    background-color: #0F1251;
+    padding: 1em;
+}
+.email_h{
+    width: 25%;
+    display: grid;
+    justify-content: center;
+    color: #fff;
+    font-family: Inter_l;
+}
+.mobil_h{
+    width: 75%;
+    display: grid;
+    justify-content: flex-end;
+    color: #fff;
+    font-family: Inter_l;
+}
+.hader_secondPart{
+    padding: 1em;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #E8ECFF;
+}
+.logo_div{
+    widows: 50%;
+    display: grid;
+    padding-left: 3em;
+    justify-content: flex-start;
+    
+  
+    
+}
+.logo_div img{
+    width: 30%;
+}
+.serch_bar{
+    width: 50%;
+    
+    display: flex;
+    justify-self: flex-end;
+    align-self: center;
+    align-items: center;   
+}
+.admin_username{
+     width: 20%;
+    display: grid;
+     background-color: #fff;
+    grid-template-columns: 25% 75%;
+    justify-self: flex-end;
+    align-self: center;
+    align-items: center;
+    font-family: Inter_l;
+    border-radius: .5em;
+    grid-column: 2;
+}
+.admin_username img{
+    width: 100%;
+    padding: .2em;
+    border-radius: 1.5em;
+}
+.admin_username p{
+    padding: 1em .5em;
+}
+.serch_elemats{
+      width: 85%;
+    background-color: #fff;
+    display: flex;
+    border-radius: 2em;
+    
+}
+
+.serch_bar input{
+    width: 78%;
+    padding: 1em;
+    border:0;
+    
+    background-color: transparent;
+    outline: 0px;
+ 
+   
+    
+}
+button:hover{
+    cursor: pointer;
+    
+}
+
+.ser_button{
+ 
+    width: 10%;
+   
+    border: 0;
+    border-radius: 50%;
+    background-color: transparent;
+    
+    
+}
+.close_button{
+    width: 10%;
+   z-index: 1;
+   
+    border: 0;
+    border-radius: 50%;
+    background-color: transparent;
+    color: black;
+    font-size: 1.2em;
+    
+}
+.serch_bar button img{
+    width: 100%;
+    display: grid;
+    align-self: center;
+    
+}
+.option_catagorie{
+    width: 100%;
+    display: flex;
+    grid-template-columns: 100%;
+    padding: 1em;
+    font-family: Inter_l;
+    padding-left: 5em;
+    background-color: #0085E5;
+    
+}
+.option_catagorie a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1em 1em .5em 1em;
+     font-size: 1em;
+    margin-right: .3em;
+    
+}
+.home_border, .option_catagorie a:hover{
+    border-bottom: 3px solid #fff;   
+}
+.Find_car{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 4em 6em;
+    color: #fff;
+    background-image: url('../img/background1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.find_car_t{
+    width: 35%;
+     
+    font-family: Inter_Bolder;
+    font-weight: 700;
+}
+.find_car_p{
+    padding: 1em 0;
+     width: 25%;
+    font-family: Inter_l;
+    
+}
+.srch_car_button{
+     width: 15%;
+    display: grid;
+    
+    
+}
+.srch_car_button button{
+    padding: 1em;
+     width: 100%;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    font-family: Inter_l;
+    align-items: center;
+    border-radius: 2em;
+    color: #fff;
+    background-color: #0066FF;
+    border: 0px;
+    
+}
+.srch_car_button button i{
+    display: flex;
+    justify-self:  flex-end;
+    font-size: 1em;
+    
+}
+.car_bodyType{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: #121B56;
+    padding: 1em;
+    
+}
+.hading_car_type{
+    padding: 1em;
+    font-family: Inter_Bold;
+    color: #fff;
+    
+}
+.hading_car_type h3{
+    padding:1em 1em 1em 3em;
+}
+
+.bule_color{
+    color: #589BFF;
+    111A56
+    
+}
+.dark_bule{
+    color: #117FFF;
+}
+.darker_bule{
+    color: #111A56;
+}
+.car_type{
+    width: 100%;
+    display: grid;
+    grid-template-columns:5% 90% 5%;
+}
+.next_car{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    z-index: 1;
+}
+.next_car button{
+    background-color: transparent;
+    border: 0px;
+}
+.next_car button i{
+    color: #fff;
+    font-size:1.5em;
+    
+}
+.boxes_carType{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.box_car{
+    width: 100%;
+    display: grid;
+    padding: .5em;
+    grid-template-columns: 60% 40%;
+    background-color: #fff;
+    border-radius: .5em;
+    font-family: Inter_l;
+    
+    
+}
+.box_car img {
+    width: 100%;
+}
+.info_carType{
+    width: 100%;
+    padding: .2em;
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center;
+    text-align: center;
+}
+.info_carType button{
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #589BFF;
+    border-radius: 50%;
+    background-color: transparent;
+  
+    
+   
+}
+.info_carType i{
+  
+    display: grid;
+    align-self: center;
+    justify-items: center;
+    align-items: center;
+    font-size: 1.5em;
+ 
+    color: #589BFF;
+    
+   
+    
+}
+.gap,.gap1,.gap_Car_info,.gap_Car_info1,.gap_brands,.gap_brands1,.gap_L_carShow{
+    display: grid;
+    margin: .5em;
+}
+.gap_brands:hover,.gap_brands1:hover{
+    cursor: pointer;
+}
+
+.box_car p{
+    font-size: .8em;
+}
+.contant_car{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    
+    grid-template-columns: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #E8ECFF 61.11%);
+    
+    background-image: url('../img/background2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.contant_car_Text{
+    font-family: Inter_l;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    
+}
+.contant_car_Text h2{
+    font-family: Inter_Bold;
+    font-weight: bold;
+    
+    
+}
+.catagorie_CAR{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: center;
+    padding: 2em 1em;
+     grid-column-gap: .5em;
+    
+}
+
+.border_gap{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+   border-radius: 1em;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+   
+    padding: 1em;
+    
+}
+
+.car_typeImg{
+    width: 100%;
+    padding: 1em;
+    border: 3px solid #2E3192;
+    border-radius: .5em;
+    
+}
+.car_typeImg img{
+    width: 100%;
+}
+.Car_Typebutton{
+    width: 70%;
+    grid-template-columns: 100%;
+    padding: 1em;
+    display: grid;
+    justify-self: center;
+    
+    margin-top: -15%;
+    z-index: 1;
+}
+.Button_Car{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    align-items: center;
+    align-self: center;
+    background: linear-gradient(180deg, #175FCC 0%, #191D8A 100%);
+    border: 0px;
+    font-family: Inter_l; 
+    padding: .5em;
+    color: #fff;
+    border-radius: 2em;
+    #121B56
+
+    
+}
+
+
+.contant_car_Text1{
+    font-family: Inter_l;
+    color: black;
+    text-align: center;
+    padding: 1em;
+    
+}
+.Car_Info{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    background-image: url('../img/background3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2em;
+}
+.about_cars_info,.about_cars_info1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.car_All_info{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: .5em;
+}
+.basic_info{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    font-family: Inter_l;
+    
+}
+.car_info_img {
+    width: 100%;
+    
+}
+.car_info_img img{
+    width: 100%;
+    border-right: .5em;
+}
+.More_ditais{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: .23em;
+  
+    
+}
+.moreInfo_box{
+    border: .1px solid black;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    border-radius: 1.5em;
+    align-items: center;
+    padding: .1em .5em;
+    background: linear-gradient(180deg, #C8D4FF 0%, rgba(215, 224, 255, 0) 100%);
+}
+.moreInfo_box img{
+    width: 100%;
+}
+.moreInfo_box p{
+    display: grid;
+    justify-content: flex-end;
+      font-family: Inter_l;
+    
+}
+.contact_aboutCar{
+    width: 100%;
+    display: grid;
+    background-color: #E9E9E9;
+    border-radius:2em;
+    grid-template-columns: 65% 35%;
+    align-items:  center;
+    
+}
+.contact_aboutCar1{
+    width: 100%;
+    display: grid;
+    background-color: #E9E9E9;
+    border-radius:2em;
+    grid-template-columns: .9fr .5fr .5fr;
+    align-items:  center;
+    
+}
+.contact_aboutCar1 select{
+    width: 100%;
+    font-size: .7em;
+    outline: 0px;
+    
+}
+.car_price_info{
+    padding: 1em;
+    display: grid;
+    
+}
+.car_price_info h3{
+    font-weight: bolder;
+    font-family: Inter_Bold;
+}
+.contact_links_info{
+    width: 100%;
+    padding: .5em;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.contact_links_info1{
+    padding: .1em;
+    
+}
+.contact_links_info button{
+    width: 100%;
+    border: 0px;
+    background-color: transparent;
+    
+}
+.contact_links_info button img{
+    width: 100%;
+}
+.click_More_option{
+    width: 20%;
+    display: grid;
+    justify-self: center;
+    padding: 1.5em;
+}
+.Car_brands{
+     width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100%;
+    padding: 2em 6em;
+    background-color: #E8ECFF;
+}
+.brands{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.brands_name{
+    width: 100%;
+    display: grid;
+    padding: 1em;
+    background-color: #fff;
+    
+}
+.brands_name img{
+    width: 100%;
+}
+.Car_show,.pic_back{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    
+}
+.pic_back img{
+    width: 100%;
+}
+.Car_show{
+    background-color:#E8ECFF;
+}
+.cars_show_imgs{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    margin-top: -8%;
+}
+.cars_show_imgs img{
+    width: 100%;
+}
+.Cars_slideShow{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+}
+.main_car_info{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    background-image: url('../img/background4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2em;
+    
+}
+.car_img_show{
+    width: 100%;
+    padding: 1em;
+    
+}
+.car_img_show img{
+    width: 100%;
+}
+.main_info_detalis{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 1em;
+    
+}
+.find_car_t1{
+    display: grid;
+    padding: 1em;
+    width: 80%;
+    color: #fff; 
+    font-family: Inter_Bolder;
+    font-weight: 700;
+    justify-self: center;
+}
+.Servise_contact{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 100%;
+    justify-self: center;
+    border: 2px solid #fff;
+    border-radius: .8em;
+    padding: 1em;
+    
+}
+.icons_Servises{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 15% 10% 15% 60%;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.icons_Servises img{
+    width: 100%;
+}
+
+
+.Servise_button{
+   width: 100%;
+    display: grid;
+    
+    padding: .1em;
+    border-radius: 3em;
+    border: 4px solid #117FFF;
+
+}
+.Servise_button button{
+    width: 100%;
+    display: grid;
+    border-radius: 1.5em;
+    border: 0px;
+    padding: 1em;
+    font-family: Inter_l;
+    color: #111A56;
+}
+.Testimonials{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: #E8ECFF;
+    justify-content: center;
+    
+}
+.Testimonials_main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    padding: 1em 3em;
+}
+.Testimonials_info{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #0B4190;
+    padding: 1em;
+    justify-self: center;
+    border-radius: 1em;
+    color: #fff;
+    
+}
+.Testimonials_info_img{
+    width: 100%;
+   
+}
+.Testimonials_info_img img{
+    width: 100%;
+     border-radius: 1em;
+}
+.Testimonials_Text{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    align-content: flex-start;
+    padding: 1em;
+    
+    
+}
+.location_name{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: flex-start;
+    align-self: flex-start;
+    font-family: Inter_l;
+}
+.location{
+    display: flex;
+    padding-top: .5em;
+    
+    
+}
+.location p{
+    padding-left: .5em;
+}
+.Text_Testmon{
+    width: 100%;
+    display: grid;
+    justify-content: flex-start;
+    padding-top: 1em;
+    font-family: Inter_Italic;
+}
+.Footer{
+    width: 100%
+    display: grid;
+    grid-template-columns: 100%;
+    
+}
+.links{
+    width: 100%;
+    display: grid;
+    padding: 1em 4em;
+    grid-template-columns: 30% 17.5% 17.5% 17.5% 17.5%;
+    background-color: #242424;
+    color: #fff;
+}
+.footer_about{
+    width: 100%;
+    display: grid;
+    grid-template-columns:100%;
+    
+    
+}
+.logo_img_f{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 1em;
+    padding:2.5em 0;
+    
+    
+}
+.logo_img_f img{
+    width: 70%;
+}
+.about_US_Text{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: flex-start;
+    padding-top: 1em;
+}
+.about_US_Text h4{
+    font-family: Inter_Bold;
+    
+}
+.about_US_Text p{
+    padding-top: .5em;
+    font-family: Poppins;
+}
+.contact_us_Icons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2em;
+    padding-top: .5em;
+}
+.contact_us_Icons a{
+    color: #fff;
+}
+.Quick_links{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+   
+    align-self: center;
+    padding: 5em 0 0 5em;
+  
+     font-family: Poppins;
+    
+}
+.Quick_links ul{
+    padding-top: 1em;
+    list-style-type:none;
+    
+   
+}
+ul a{
+    text-decoration: none;
+    color: #fff;
+}
+ul li{
+    padding-top: 1em;
+}
+.copy_right{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center;
+    
+     font-family: Poppins;
+    color: #fff;
+    background-color: #444444;
+    padding: 1em 0;
+    font-size: 1.2em;
+}
+.search_wapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 1em;
+    background-color: #E8ECFF;
+}
+.search_contant{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    padding: 1em;
+    background-color: #E8ECFF;
+    grid-gap: 1em;
+    
+}
+.filter{
+    width: 100%;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    background-color: #282828;
+    border-radius: 1em;
+    color: #fff;
+    font-family: Inter_l;
+}
+.filter button{
+    width: 100%;
+    background-color: transparent;
+    border: 0px;
+}
+.filter img{
+    width: 50%
+}
+.Input_search_div{
+    width: 100%;
+    display: flex;
+    padding: .5em;
+    background-color: #fff;
+    border-radius: 1em;
+    font-family: Inter_l;
+}
+.search_Icon{
+    display: grid;
+    width: 5%;
+  
+    
+}
+.search_Icon button{
+    width: 100%;
+    border: 0px;
+    font-size: 1em;
+    background-color: transparent;
+    display: grid;
+    align-self: center;
+    justify-self: center;
+    
+   
+    
+}
+.T_input_search{
+    width: 80%;
+    display: grid;
+}
+.T_input_search input{
+    border: 0px;
+      outline: 0px solid transparent;
+}
+.cross_button{
+    width: 5%;
+    display: grid;
+     background-color: transparent;
+     border: 0px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    
+}
+.cross_button i{
+    display: grid;
+    justify-self: center;
+    align-items: center;
+    
+    
+}
+.sort_by{
+    width: 10%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid black;
+    padding-left: .2em;
+}
+.sort_by button{
+    display: grid;
+    width: 80%;
+    font-size: 1em;
+    justify-self: flex-end;
+    background-color: transparent;
+    border: 0px;
+}
+.search_option{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 1em;
+    align-items: flex-start;
+}
+
+.search_Result{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: transparent;
+    align-content: flex-start;
+    
+}
+.filter_option{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    
+}
+.disply_result{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items:  center;
+    padding: 2em;
+    font-family: Inter_l;
+    background-color: #133181;
+    border-radius: 1em;
+    color: #fff;
+    
+}
+.selection_filter{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    font-family: Inter_l;
+    background-color: #E1E4FF;
+    border-radius: 1em;
+    padding: 1em;
+    margin-top: 1em;
+    
+}
+.selection_filter select{
+    width: 100%;
+    outline: 0px;
+    border: 0px;
+    background-color: transparent;
+}
+.selection_filter select option{
+    background-color: #E1E4FF;
+    font-size: .9em;
+    
+}
+.filter_body{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    padding: 1em;
+    border-top: 1px solid black;
+     border-bottom: 1px solid black;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.filter_body p{
+    font-family: Inter_Bolder;
+    font-weight: bold;
+    
+}
+.filter_body button{
+    width: 100%;
+    font-size: 1.1em;
+    border: 0px;
+    background-color: transparent;
+}
+.body_type_filter{
+    width: 100%;
+    display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: .5em;
+    
+}
+.body_car_img{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center;
+    font-family: Inter_l;
+}
+.body_car_img img{
+    width: 100%;
+}
+.Transmission_checkbox{
+     
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;;
+    font-family: Inter_l;
+    font-size: .9em;
+    
+}
+.Transmission_checkbox > div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    padding: .5em 0;
+}
+.Life_Style_filter{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: .5em;
+}
+.Life_Style_option{
+     width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 2.5em;
+    font-family: Inter_l;
+    background-color: #CFD3F8;
+    justify-items: center;
+    border-radius: 1em;
+    
+}
+.button_serach_filter{
+     width: 100%;
+    display: grid;
+    grid-template-columns: 100%;  
+}
+.button_serach_filter button{
+     width: 100%;
+    display: grid;
+    grid-template-columns: 100%; 
+    padding: .5em;
+    margin-top: 1em;
+    border-radius: 1em;
+    font-family: Inter_Bold;
+    background-color: #133181;
+    color: #fff;
+    font-size: 1.2em;
+    
+}
+.background_car_detail{
+    background-color: #E8ECFF;
+    padding: 1em 2em 1em 5em;
+}
+.wapper_car_detail{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+}
+.index_car{
+    color: #888888;
+    padding: 1em 0; 
+    font-family: Inter_l;
+}
+.detail_Car_im{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 78% 22%;
+    padding: 1em;
+    grid-gap: .5em;
+    background-color: #fff;
+}
+.D_car_img{
+    width: 100%;
+    display: grid;
+    padding: .5em 0;
+}
+.D_car_img img{
+    width: 100%;
+    border-right: 1.5em;
+}
+.similar_D_car,.CarSs_div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    align-self: flex-start;
+    
+    
+    
+}
+
+.D_incons{
+    width: 10%;
+    display: grid;
+    justify-self: center; 
+  
+    border-radius: 2em;
+}
+.D_inconsup{
+    margin-bottom: -6%;
+    z-index: 1;
+}
+.D_inconsdown{
+     margin-top: -6%;
+    z-index: 1;
+}
+.D_incons button{
+    width: 100%;
+    border: 0px;
+    color: black;
+    background-color: transparent;
+    font-size: 2em;
+    
+    
+}
+.similar_imgs_CAR{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+  
+    padding: .3em;
+    
+}
+.similar_imgs_CAR:hover{
+    cursor: pointer;
+}
+.similar_imgs_CAR img{
+    width: 100%;
+}
+.car_more_Details{
+    width: 100%;
+    display: grid;
+    padding: 2em 1em 1em 1em;
+    grid-template-columns: 40% 60%;
+    border-bottom: 1px solid black;
+}
+.Car_name{
+    width: 100%;
+    font-family: Inter_Bolder;
+    
+}
+.Car_prise{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+.prize_div{
+    width: 15%;
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: #fff;
+    padding: .4em;
+    font-family: Inter_M;
+}
+.tag{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    
+    text-align: center;
+    
+}
+.tag img {
+    width: 100%;
+}
+.callUS_detalis{
+    width: 30%;
+    display: grid;
+    grid-template-columns: 100;
+ 
+}
+.callUS_detalis button{
+     display: grid;
+    grid-template-columns: 80% 20%;
+    font-family: Inter_Bold;
+    color: #fff;
+    background-color: #29378E;
+    padding: .5em;
+    border-radius: 1.5em;
+    margin-left: .5em;
+    align-items: center;
+    border: 0px;
+    
+}
+
+.callUS_detalis button img {
+    width: 100%;
+}
+.car_text_details{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-top: 1em;
+    grid-gap: .5em;
+    
+}
+.Car_Overview,.Short_Description{
+    display: grid;
+    grid-template-columns: 100%;
+    color: #fff;
+    background-color: black;
+    padding: .5em;
+    border-radius: 1em;
+    font-family: Inter_Bold;
+}
+.Car_Overview_details{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: .5em;
+    
+    
+}
+.Overview{
+     width: 100%;
+    display: grid;
+    padding: 1em;
+    grid-template-columns: 100%;
+    background-color: #fff;
+    border-radius: .5em;
+    
+}
+.Overview p{
+    font-family: Inter_l;
+    color: #5C5C5C;
+    
+}
+.Overview h3{
+    padding-top: 1em;
+    font-family: Inter_Bold;
+}
+.Short_Description_dtalis{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    padding: .5em;
+    background-color: #fff;
+    border-radius: .5em;
+    font-family: Inter_l;
+}
+.similar_Car_option{
+    width: 100%;
+    display: grid;
+    padding: 1em;
+    border-bottom: 1px solid black;
+    font-family: Inter_Bold;
+    margin: 1em 0;
+}
+.contact_usimg{
+    width: 100%;
+   
+}
+.contact_usimg img{
+    width: 100%;
+    grid-template-columns: 100%;
+    background-color: #E8ECFF;
+}
+.contactUS_background{
+     width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: #E8ECFF;
+    margin-top: -1em;
+    
+    
+    
+}
+.padin{
+    padding-bottom: 15em;
+    background: linear-gradient(180deg, #19298C 0%, #080D2C 100%);
+}
+.form_wapper{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-self: center;
+    background-color: #29378E;
+    border-radius: 1em;
+    margin-top: -15%;
+     margin-bottom: 5%;
+    
+   
+    
+}
+.left_side_form{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+      border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    background-color: #29378E;
+    align-content: flex-start;
+}
+.Contact_Information{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 1em;
+    color: #fff;
+    font-family: Inter_l;
+}
+.main_contact_form{
+    width: 100%;
+    display: grid;
+    background-color: #fff;
+    border-radius: 1em;
+    padding: 1em;
+    
+}
+.contact_us_address{
+    margin-left: 1em;
+    display: grid;
+    align-items: flex-start;
+    justify-self: center;
+    width: 85%;
+    border: 1px solid #fff;
+    border-radius: 1em;
+}
+.info_wappers_contact{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    color: #fff;
+}
+.contact_links_us{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 15% 80%;
+    align-items: center;
+    padding: 1em 0;
+    margin-left: -8%;
+    font-family: Inter_l;
+}
+.contact_links_us img{
+    width: 100%;
+    border-radius: 50%;
+}
+.contact_links_us p{
+    padding-left: 1.5em;
+}
+.contant_media_wapper{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+    
+}
+.contant_media{
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1em;
+    padding: 1.5em;
+    
+}
+.contant_media img{
+    width: 100%;
+     background-color: #29378E;
+}
+.contant_media_img{
+    width: 100%;
+    display: grid;
+    padding-top: 1.4em;
+   
+    
+    
+}
+
+.contant_media_img img{
+    width: 100%;
+    background-color: #29378E;
+    
+    
+}
+.form_inputs{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 1em;
+    grid-gap: .5em;
+   align-self: start;
+}
+.form_inputs input{
+    width: 100%;
+    padding: 1em;
+    margin-top: .5em;
+    margin-bottom: .7em;
+    background-color: transparent;
+    border: 0px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+.form_inputs label{
+    font-family: Inter_Bold;
+    font-size: 1em;
+    margin-bottom: .7em;
+   
+    
+}
+
+.input_textArea{
+    width: 100%;
+    display: grid;
+    grid-column: 1/3;
+}
+
+.input_textArea textarea{
+     width: 100%;
+     border-radius: .5em;
+    resize: vertical;
+    
+}
+.register{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+    grid-column: 1/3;
+    color: #fff;
+    font-family: Inter_Bold;
+    grid-gap: 1em;
+    
+}
+
+.msg_button{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+}
+.register button,.msg_button button{
+    background-color: #117FFF;
+    padding: 1em;
+    color: #fff;
+    font-family: Inter_Bold;
+    font-size: 1em;
+    border: 0px;
+    border-radius: .5em;
+}
+
+.login_form_background{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-content: flex-end;
+    background-image: url('../img/login_background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.car_imglogin{
+    width: 100%;
+    padding-top: 10em;
+    display: grid;
+    z-index: 1;
+}
+.car_imglogin img{
+    width: 80%;
+        
+}
+.Login_form_div{
+    width: 80%;
+     display: grid;
+    grid-template-columns: 100%;
+    
+    margin-top: 7em;
+    background-color: #fff;
+    border-radius: 1em;
+}
+.Login_form_div img{
+    width: 80%;
+    display: grid;
+    justify-self: center;
+    padding: 1em;
+    z-index: 1;
+}
+.Login_input{
+    display: grid;
+    grid-template-columns: 100%;
+    
+    z-index: 2;
+}
+.blue_back{
+    
+    width: 100%;
+    display: grid;
+    background: linear-gradient(180deg, #1C31B6 0%, #080D2C 100%);
+    margin-top: -10%;
+    padding: 5em;
+
+    
+}
+.blue_back img{
+    width: 100%;
+    z-index: 0;
+    
+}
+.about_us_background{
+    width: 100%;
+    display: grid;
+    
+}
+.about_us_background img{
+    width: 100%;
+    
+}
+.about_us_wapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: #E8ECFF;
+}
+.about_us_contant{
+    width: 100%;
+    display: grid;
+    
+}
+
+.info_about_us{
+     width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 2em;
+    
+    
+}
+.about_us_Head{
+    padding: 3em;
+     background-image: url(../img/head_back.png);
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.bacg_ab2{
+    width: 100%;
+    display: grid;
+     background-image: url(../img/ab-back.png);
+     background-size: cover;
+    background-position: left,right;
+    background-repeat: no-repeat;
+    
+}
+.info_about_text{
+     width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    
+}
+.ab_text{
+     text-align:start;
+}
+.car_about_im{
+    width: 100%;
+    display: grid;
+    grid-column: 2;
+    grid-row: 1/3;
+    align-self: flex-end;
+}
+.car_about_im img{
+    width: 80%;
+    
+}
+.car_about_im2{
+     width: 100%;
+    display: grid;
+}
+.car_about_im2 img{
+    width: 100%;
+    
+}
+.important_to_us{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-self: center;
+ 
+}
+.important_elements{
+    width: 100%;
+    display: grid;
+    grid-row-gap: 0;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: right,left;
+    padding: 4em;
+    color: #fff;
+    font-family: Inter_l;
+    
+    
+}
+.import_modifi{
+    grid-column: 1/3;
+}
+.important_elements p{
+    display: grid;
+    width: 70%;
+    align-items: center;
+   
+}
+.import_back1{
+    background-image: url(../img/important_back1.png);
+    
+}
+.import_back2{
+   
+     background-image: url(../img/important_back2.png);
+     display: grid;
+   
+}
+.import_back2 p{
+    justify-self: flex-end;
+    width: 70%;
+}
+
+
+.import_back3{
+     background-image: url(../img/important_back3.png);
+}
+
+.import_back4{
+     background-image: url(../img/important_back4.png);
+    display: grid;
+   
+    
+}
+.import_back1 p,.import_back3 p{
+    justify-self: flex-start;
+    justify-content: flex-end;
+}
+.import_back2 p,.import_back4 p{
+   justify-self: flex-end;
+    justify-content: flex-start;
+}
+.last_contant_about{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    background-image: url('../img/img_about_back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img_lastabout{
+    width: 100%;
+    display: grid;
+}
+.img_lastabout img{
+    width: 100%;
+    
+}
+.last_hading_about{
+    display: grid;
+}
+.last_hading_about p{
+    display: grid;
+    width: 50%;
+    justify-self: center;
+}
+.admin_dashboard_wapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.admin_op_categorize_wapper{
+    width: 100%;
+     grid-template-columns: 100%;
+    background-color: #160E6C;
+    padding: 6em 0;
+    
+}
+.admin_op_categorize{
+    widows: 100%;
+    display: grid;
+    align-items: flex-start;
+    align-self: flex-start;
+    grid-template-columns: 100%;
+    
+    grid-gap: .5em;
+    padding: 1em;
+}
+.admin_dashboard_contant{
+    width: 100%;
+    display: grid;
+    background-color: #E8ECFF;
+    align-items: flex-start;
+    padding: 1em;
+    
+}
+.admin_option{
+    width: 100%;
+    display: grid;
+}
+.admin_option button{
+    width: 100%;
+    border: 0px;
+    background-color: transparent;
+    padding: 1em;
+    border-radius: .5em;
+    color: #fff;
+    
+    
+}
+.admin_option button:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.op_admin_modify button{
+     background-color: #fff;
+    color: black;
+    
+}
+.search_bar_wapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+   
+    
+}
+.Overview_serach_bar{
+    width: 50%;
+    display: flex;
+    background-color: #fff;
+    border-radius: .4em;
+   
+    
+}
+.search_modifiy_wapper{
+    width: 100%;
+    display: flex;
+}
+.Overview_serach_bar button{
+    width: 6%;
+      padding: .5em;
+    font-size: 1em;
+    border: 0px;
+    background-color: transparent;
+  
+}
+.Overview_serach_bar input{
+    width: 88%;
+     padding: 1em;
+    outline: 0px;
+    border: 0px;
+    
+}
+.Overview_car_detalis{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: .5em;
+    margin: .5em 0
+}
+.car_Overview{
+    width: 100%;
+    display: grid;
+    grid-template-columns:60% 40%;
+    padding: .5em;
+     font-family: Inter_l;
+    background-color: #fff;
+    
+}
+.car_Overview > div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+}
+.Car_overviewiMg{
+    width: 100%;
+    display: grid;
+    padding: 1em;
+    border-radius: .5em;
+    background-color: #E8ECFF;
+    justify-items: center;
+}
+.Car_overviewiMg img{
+    width: 80%;
+}
+.Overview_haeding{
+    width: 100%;
+    display: grid;
+    grid-template-columns: .9fr 1fr .7fr .7fr .8fr .3fr;
+    background-color: #282828;
+    color: #fff;
+    padding: 1em;
+    border-radius: .5em;
+    font-family: Inter_l;
+}
+.Overview_haeding1{
+    width: 100%;
+    display: grid;
+     grid-template-columns: .3fr .2fr 1fr .3fr;
+     background-color: #282828;
+    color: #fff;
+    padding: .5em;
+    border-radius: .5em;
+    font-family: Inter_l;
+    text-align: center;
+    
+}
+.Overview_main_wapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+     background-color: #fff;
+    border-radius: .5em;
+     margin-top: .5em;
+    padding: 0 1em;
+    
+}
+.Overview_main_info{
+    width: 100%;
+    display: grid;
+    grid-template-columns: .9fr 1fr .7fr .7fr .8fr .3fr;
+    padding:1em 0;
+    border-bottom: 1px solid black;
+    color: black;
+    font-family: Inter_l;
+    
+}
+.Overview_main_info button{
+    display: grid;
+    justify-self: center;
+    width: 50%;
+    border: 0px;
+    background-color: transparent;
+    font-size: 1.2em;
+}
+.Add_new_car{
+    width: 100%;
+    display: grid;
+    justify-content: flex-end;
+}
+.add_LifeStyle{
+    align-self: flex-start;
+}
+
+.Add_new_car button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222694;
+    border: 0px;
+    color: #fff;
+    border-radius: .5em;
+}
+.Update_car button{
+    display: grid;
+    align-self: center;
+    padding: 1em;
+    
+}
+.Add_new_car button i{
+    font-size: 1em;
+    padding: .5em;
+    
+}
+.Add_new_car button .icon_right{
+    font-size: 2em;
+    padding: .2em .2em .2em .5em;
+}
+.All_car_F_Sale{
+    width: 100%;
+    display: grid;
+    font-family: Inter_Bold;
+    padding: 1em 0;
+    
+}
+.buttons_slide{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.slid_button{
+    border: 0px;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: .2em;
+    
+}
+.slid_button:hover{
+     background-color: #1940A9;
+    color: #fff;
+    
+}
+.seleced_button{
+    background-color: #1940A9;
+    color: #fff;
+}
+.rght_slid,.left_slid{
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(180deg, #1C31B6 0%, #080D2C 100%);
+    color: #fff;
+    border-radius: 50%;
+    
+}
+.Admin_sales{
+    display: grid;
+    align-content: flex-start;
+}
+.Media_upload{
+    widows: 100%;
+    display: grid;
+    background-color: #E8ECFF;
+    align-items: flex-start;
+    margin-top: 1em;
+    display: grid;
+    align-content: flex-start;
+}
+.option_selection{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 1em 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    grid-gap: .5em;
+}
+.selection_filter1{
+    margin-top: 0;
+    background-color: #fff;
+}
+.selection_filter1 select option,.select_fliter select option{
+    background-color: #fff; 
+}
+.select_fliter{
+    margin-top: 0;
+    background-color: #fff;
+    border-radius: .5em;
+    border: 1px solid black;
+    
+}
+
+.form_Add_car{
+    border-top: 1px solid black;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    font-family: Inter_l;
+    
+}
+.Add_detalis_car{
+    width: 100%;
+    display: grid;
+    align-self: flex-start;
+    grid-template-columns: 100%;
+    
+     font-size: .9em;
+}
+.car_title_prize{
+    width: 100%;
+    display: grid;
+    grid-template-columns: .5fr .3fr .3fr;
+    grid-gap: .5em;
+    padding-top: .5em;
+}
+.add_car_more_ditals{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: .5em;
+    margin-top: .5em;
+    
+}
+.car_title_prize > div,.add_car_more_ditals > div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    
+}
+.car_title_prize > div input,.add_car_more_ditals > div input  {
+    width: 100%;
+    display: grid;
+    padding: 1em;
+    border-radius: .5em;
+    outline: 0px;
+    border: 1px solid black;
+    
+}
+
+
+.div_car_prise{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: .5em;
+    
+     
+}
+.div_car_prise i{
+     width: 100%;
+    display: grid;
+    padding: 1em;
+   
+    
+}
+.car_title_prize .div_car_prise input{
+   
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+   border: 0px;
+    outline: 0px;
+    
+}
+.Txt_aarya{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    margin-top: .5em;
+    align-content: flex-start;
+    font-size: .9em;
+    padding: 0 .5em;
+}
+.this_label{
+    padding-bottom: .4em;
+    font-family: Inter_l;
+}
+.Imges_Upload{
+    width: 100%;
+    display: grid;
+    grid-template-columns: .6fr .4fr;
+    grid-gap: .5em;
+    border-top: 1px solid black;
+}
+.Imges_uploaded{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    background-color: #fff;
+    padding: 1em;
+    margin-top: .5em;
+    border-radius: .5em;
+}
+.upload_img_border{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    border: 2px dotted black;
+    padding: .5em;
+    align-items: flex-start;
+}
+.upload_img_border_b{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    border: 2px dotted black;
+    justify-content: center;
+    padding: 1em;
+    margin-top: 1em;
+    
+    
+}
+.palce_img{
+    width: 100%;
+    display: grid;
+    padding: 2em 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #11206F;
+    color: #fff;
+    font-family: Inter_l;
+
+}
+.palce_img2{
+    display: grid;
+    align-content: center;
+    background-color: black;
+    
+}
+.upload_buton{
+    display: grid;
+    justify-self: center;
+    width: 50%;
+    background-color: black;
+    padding: 1em;
+    
+}
+#palce_img2, #img10, #img9,#img8, #img7, #img6, #img5, #img4, #img3, #img2, #img1, #img11, #img12{
+    background-image:url('');
+    background-size:cover;
+    background-position: center;
+}
+.upload_del_button{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: .3em;
+    justify-content: center;
+    
+}
+.upload_del_button input[type=file], .upload_buton input[type=file]{
+    display: none;
+}
+.upload_del_button2{
+    grid-template-columns: 1fr;
+    
+}
+.label_file{
+    display: grid;
+    justify-content: center;
+}
+.upload_del_button2 label, .upload_del_button button{
+    width: 100%;
+   font-size: 1.3em;
+    border: 0px;
+    background-color: transparent;
+    color: #fff;
+    
+    
+}
+.label_file i{
+     font-size: 1.3em;
+    cursor: pointer;
+    color: #fff;
+    }
+.upload_del_button2 label i{
+    font-size: 2.3em;
+}
+.mobile_option{
+    display: none;
+}
+.catagorie_CAR_wapper{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    
+}
+.Car_button_sild{
+    display: none;
+}
+.brands_wrapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+}
+.I_right{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.car_mob_img{
+    display: none;
+}
+.life_Style_catagoris{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1.2em;
+    border-top: 1px solid black;
+    padding: 1em 0;
+}
+.Life_Style_detalis{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    
+}
+.Life_Style_detalis p{
+    display: grid;
+    align-self: center;
+    font-family: Inter_Bold;
+    
+}
+.Life_S_button{
+    display: flex;
+    justify-content: flex-end;
+}
+.right_Life_S_button{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Life_S_button button{
+    padding: .5em;
+    font-size: .7em;
+    margin: .2em;
+    color: #fff;
+    border: 0px;
+    border-radius: .4em;
+}
+.IMG_Life_Styl{
+    width: 100%;
+    display: grid;
+    padding: .5em;
+    background-color: #fff;
+}
+.trach_red{
+    background-color: #FF4747;
+}
+.back_edit{
+     background-color: #282828;
+    
+}
+.IMG_Life_Styl img{
+    width: 100%;
+    border-radius: .5em;
+}
+.makes_edit_fo{
+    width: 100%;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    border-top: 1px solid black;
+    padding-top: 1em;
+}
+.makes_edit_fo_info{
+    width: 100%;
+    display: grid;
+    background-color: #fff;
+    border-radius: .5em;
+}
+.makes_item{
+    width: 98%;
+    display: grid;
+    justify-self: center;
+    grid-template-columns: .3fr .2fr 1fr .3fr;
+    padding: .5em .2em;
+    border-bottom: 1px solid black;
+    align-items: center;
+    grid-gap: .3em;
+}
+.border_make {
+    display: grid;
+    justify-content: flex-start;
+    
+}
+.border_make select{
+    border: 1px solid black;
+    padding: .2em 1em;
+    font-family: Inter_l;
+}
+
+
+.back_Save{
+    background-color: #222694;
+
+}
+.wapper_CONTANT_D{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    }
+.button_Overview_main_info{
+    display: none;
+}
+.admin_op_categoriz_mob{
+    display: none;
+}
+.Admin_Profile_details{
+    
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    border-top: 1px solid black;
+    padding-top: 1em;
+    grid-gap: 2em;
+}
+.Admin_pro_from{
+    width: 100%;
+    display: grid;
+    grid-template-columns: .3fr 1fr;
+    background-color: #fff;
+    padding: 1em;
+    grid-gap: .5em;
+}
+#Admin_IMG_UPLOAD{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    border-radius: .5em;
+    background-image: url('../img/Admin_profiles.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4em;
+}
+.Admin_IMG_UPLOAD p{
+    color: #fff;
+     font-family: Inter_l;
+    text-align: center;
+}
+.Admin_IMG_UPLOAD button{
+    background-color: transparent;
+    border: 0px;
+    color: #fff;
+}
+.Admin_profile_Input{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: .5em;
+    align-content: flex-start;
+    font-family: Inter_l;
+}
+.Admin_profile_Input  > div , .Add_Admin > div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+}
+.Admin_profile_Input > div input{
+    padding: 1em;
+    
+}
+.Add_Admin{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr .8fr;
+    background-color: #022A34;
+    padding: 1em;
+    grid-gap: .5em;
+    border-radius: .3em;
+}
+.Add_Admin > div input{
+    padding: 1em;
+    border-radius: .3em;
+    border: 0px;
+    
+}
+.Admin_Users_detalis{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1em;
+    border-radius: .5em;
+    background-color: #fff;
+}
+.Admin_Users_info_hading{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 10% 80%;
+    background-color: #282828;
+    color: #fff;
+    padding: 1em;
+    border-radius: .5em;
+    font-family: Inter_l;
+}
+.Admin_user_action{
+    width: 30%;
+    display: grid;
+    justify-self: flex-end;
+    justify-content: center;
+    
+}
+.user1_admin{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 10% 80%;
+    align-items: center;
+    padding: 1em;
+    font-family: Inter_l;
+    border-bottom: 1px solid black;
+    
+    
+}
+.Modifiy_Admin_user_action{
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+.Modifiy_Admin_user_action button{
+    border-radius: 2em;
+    padding: 1em;  
+}
+.red_buton_color{
+    background-color: #FF5555;
+    color: #fff;
+    border: 0px;
+}
+.trans_backg{
+    background-color: transparent;
+    border: 1px solid black;
+}
+#only_forLease,#the_only,.fileupload_admin{
+    display: none;
+}
+.file_input{
+    width: 70%;
+    padding: 1em;
+    background-color: transparent;
+    background-image: url(../img/icon_up.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+}
+.file_input:hover{
+    cursor: pointer;
+}
+.Emp_form{
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+.moer_info{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 1px solid #000;
+    padding: 1em;
+    margin-top:  .5em;
+    margin-top: -100px;
+    
+
+}
+.labale{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 50%;
+    border-top: 1px solid #000;
+    padding: .5em;
+}
+.contacts{
+    border: 1px solid #000;
+    margin-top: 1em;
+}
+
+.introduction{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-content: flex-start;
+}
+.ing_up{
+    display: grid;
+    justify-self: center;
+    width: 60%;
+    border: 1px solid #000;
+    height: 200px;
+
+}
+.contacts{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.addresses{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.parment,.current{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 60%;
+    border: 1px solid #000;
+    padding: .5px;
+    margin: 1em;
+
+}
+.position{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    padding: 1em;
+}
+.parment input,label{
+    padding-top: .5em;
+    margin-top: 1em;
+}
+.current input,label{
+    padding-top: .5em;
+    margin-top: 1em;
+}
+.Family_details{
+    border: 1px solid #000;
+}
+.Family_details label,input{
+    padding: .5em;
+    margin-top: 1em;
+}
+.brother_sister_details{
+    border: 1px solid #000;
+}
+.brother_sister_details{
+    padding-top: .5em;
+    margin-top: 1em;
+}
+.qualification{
+    border: 1px solid #000;
+}
+.Prof_Experience{
+    border: 1px solid #000;
+}
+.refrence{
+    border: 1px solid #000;
+}
+.emp_confirmation{
+    display: grid;
+}
+.sign{
+    width: 30%;
+    display: grid;
+    justify-content: center;
+    justify-self: flex-end;
+    
+}
+#usercomments{
+    width: 100%;
+}
+.sign2{
+    width: 30%;
+    display: grid;
+    justify-self: flex-end;
+    justify-content: center;
+}
+.sign3{
+    display: grid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

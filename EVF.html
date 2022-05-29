@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Varification Form</title>
+    <style>
+        
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        .form{
+            display:grid;
+            grid-template-columns: auto auto auto auto;
+            column-gap: 50px;
+            row-gap: 5px;
+        }
+        .form input{
+            border-bottom: 1px solid rgb(165, 163, 163);
+            border-top: 0px;
+            border-left: 0px;
+            border-right:0px ;
+        }
+        .heading{
+            text-align: center;
+        }
+
+        .form_bottom{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            height: 30px;
+            table-layout: fixed;
+            width: 100%;
+        }
+        
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin-top: 90px;
+        }
+        .table_section{
+            margin-top: 20px;
+        }
+        .form_bottom{
+            margin-top: 85px;
+        }
+        .form_bottom input{
+            border-bottom: 1px solid rgb(165, 163, 163);
+            border-top: 0px;
+            border-left: 0px;
+            border-right:0px ;
+        }
+    </style>
+</head>
+<body>
+        <section class="heading">
+
+            <div class="form_heading1">
+                <h1>
+                    Company Pvt. Ltd.
+                </h1>
+            </div>
+            <div class="form_heading2">
+                <h2 class="heading">
+                    Employee Varification Form
+                </h2>
+            </div>
+        </section>
+        <section class="form_section">
+
+            <div class="form">
+                <form action="" name="form" class="form">
+                    
+                    <label for="name">Name:</label>
+                    <input type="text" class="name" name="name" size="40" required> 
+                    <label for="fname">FName:</label>
+                    <input type="text" class="fname" name="fname" size="40">
+                    <label for="designation">Designation:</label>
+                    <input type="text" class="designation" name="designation" size="40">
+                    <label for="doj">DOJ:</label>
+                    <input type="text" class="doj" name="doj" size="40">
+                    <label for="location">Loaction:</label>
+                    <input type="location" class="location" name="locaton" size="40">
+                </form>
+            </div>
+        </section>
+        <section class="table_section">
+
+            <div class="form_table">
+                <table>
+                        <th>S.NO</th>
+                        <th>DOCUMENT</th>
+                        <th>DETAILS</th>
+                        <th>STATUS</th>
+                    <tr>
+                        <td>1.</td>
+                        <td>PAN No.</td>
+                        <td><input type="number" name="panno" id="pan"></td>
+                        <td><input type="text" name="pan_status" id="pan_status"></td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Aadhar Number</td>
+                        <td><input type="number" id="Aadharno"></td>
+                        <td><input type="text" id="aadhar_status"></td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Address</td>
+                        <td><input type="text" id="address"></td>
+                        <td><input type="text" id="address_status"></td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>Passport Number</td>
+                        <td><input type="number" id="passnumber"></td>
+                        <td><input type="text" id="pass_status"></td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td>Date Of Birth</td>
+                        <td><input type="date" id="dob"></td>
+                        <td><input type="text" id="dob_status"></td>
+                    </tr>
+                    <tr>
+                        <td>6.</td>
+                        <td>Blood Group</td>
+                        <td><input type="text " id="bgroup"></td>
+                        <td><input type="text" id="bgroup_status"></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section class="form_bottom">
+            <div class="item1">
+                <label for="prepared by">Prepared By:</label>
+                <input type="text" class="prepared by" name="prepared by" size="30">
+            </div>
+            <div class="item2">
+                <label for="date">Date:</label>
+                <input type="date" class="date" name="date" size="30">
+
+            </div>
+            <div class="item3">
+
+                <label for="checked by">Checked By:</label>
+                <input type="text" class="checked by" name="checked by" size="30">
+                
+            </div>
+            <div class="item4">
+
+                <label for="place">Place:</label>
+                <input type="text" class="place" name="place" size="30">
+            </div>
+        </section>
+        
+        <footer>
+            @copyright company Ltd. Pvt.
+        </footer>
+</body>
+</html>
